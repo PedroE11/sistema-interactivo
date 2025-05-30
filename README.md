@@ -16,42 +16,10 @@ Este proyecto es un sistema interactivo desarrollado en Django para la práctica
 2. **ejercicios**: Generación y gestión de ejercicios matemáticos
 3. **evaluacion**: Evaluación de respuestas y estadísticas
 
-## Instalación
 
-1. Clonar el repositorio:
-\`\`\`bash
-git clone https://github.com/tu-usuario/sistema-interactivo-matematicas.git
-cd sistema-interactivo-matematicas
-\`\`\`
-
-2. Crear y activar entorno virtual:
-\`\`\`bash
-python -m venv env
-# En Windows
-env\Scripts\activate
-# En Linux/macOS
-source env/bin/activate
-\`\`\`
-
-3. Instalar dependencias:
+Instalar dependencias:
 \`\`\`bash
 pip install -r requirements.txt
-\`\`\`
-
-4. Realizar migraciones:
-\`\`\`bash
-python manage.py makemigrations
-python manage.py migrate
-\`\`\`
-
-5. Crear superusuario:
-\`\`\`bash
-python manage.py createsuperuser
-\`\`\`
-
-6. Ejecutar el servidor:
-\`\`\`bash
-python manage.py runserver
 \`\`\`
 
 ## Uso
@@ -64,6 +32,3 @@ python manage.py runserver
 ## Autores
 
 - Juan Aguilar
-- Felipe Lopez
-- Jonathan Iguarán
-- José Pirela
